@@ -21,6 +21,7 @@ const beerModule = {
           .then((data) => data);
         commit('setBeer', [response, ...state.beers]);
       } catch (e) {
+        // eslint-disable-next-line no-console
         console.log(e);
       }
     },

@@ -56,7 +56,7 @@ export default {
 }
 
 .not-found__text {
-  transition: color .5s;
+  transition: color 0.5s;
 }
 
 .not-found__text:hover {

@@ -1,5 +1,5 @@
 <template>
-  <section class="beer-list beer-list__page">
+  <section class="beer-list page__beer-list">
     <my-button @click="fetchBeer()" class="beer-list__button-light"
       >Get a random beer</my-button
     >
@@ -62,7 +62,7 @@ export default {
   justify-items: center;
 }
 
-.beer-list__page {
+.page__beer-list {
   margin: 0 auto;
 }
 

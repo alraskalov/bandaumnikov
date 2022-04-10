@@ -28,6 +28,7 @@ const userModule = {
         commit('setUser', response);
       } catch (e) {
         commit('setError', true);
+        // eslint-disable-next-line no-console
         console.log(e);
       } finally {
         commit('setLoading', false);

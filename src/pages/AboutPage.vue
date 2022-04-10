@@ -104,7 +104,7 @@ export default {
   }
 
   .about__button:not(:last-child) {
-    margin-right:0;
+    margin-right: 0;
   }
   .about__button-light {
     margin-bottom: 16px;
