@@ -3,7 +3,7 @@
     <h2 v-if="loading" class="profile__title">Loading...</h2>
     <h2 v-else-if="error" class="profile__title">Error loading</h2>
     <div v-else class="profile__container">
-      <img class="profile__photo" :src="user?.avatar" alt="User Avatar" />
+      <img class="profile__photo" :src="user.avatar" alt="User Avatar" />
       <h2 class="profile__name">
         {{ `${user.first_name} ${user.last_name}` }}
       </h2>
