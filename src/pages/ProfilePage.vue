@@ -26,7 +26,7 @@ export default {
       fetchUser: 'user/fetchUser',
     }),
     birthDateToAge() {
-      const birthDate = new Date(this.user?.date_of_birth);
+      const birthDate = new Date(this.user.date_of_birth);
 
       const now = new Date();
       const age = now.getFullYear() - birthDate.getFullYear();
