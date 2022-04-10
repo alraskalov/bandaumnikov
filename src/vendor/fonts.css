@@ -1,0 +1,60 @@
+/* DM Sans-400 */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/DM\ Sans/DMSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/DM\ Sans/DMSans-Regular.woff') format('woff'); /* Modern Browsers */
+}
+/* DM Sans-500 */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../public/fonts/DM\ Sans/DMSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/DM\ Sans/DMSans-Medium.woff') format('woff'); /* Modern Browsers */
+}
+/* DM Sans-700 */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../public/fonts/DM\ Sans/DMSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/DM\ Sans/DMSans-Bold.woff') format('woff'); /* Modern Browsers */
+}
+
+/* Gotham-400 */
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/Gotham/GothamBook-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/Gotham/GothamBook-Regular.woff') format('woff'); /* Modern Browsers */
+}
+
+/* Poppins-600 */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../public/fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/Poppins/Poppins-SemiBold.woff') format('woff'); /* Modern Browsers */
+}
+
+/* Ubuntu-600 */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/Ubuntu/Ubuntu-R.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/Ubuntu/Ubuntu-R.woff2') format('woff'); /* Modern Browsers */
+}
+
+/* Ubuntu-600 */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../public/fonts/Ubuntu/Ubuntu-M.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/Ubuntu/Ubuntu-M.woff') format('woff'); /* Modern Browsers */
+}
