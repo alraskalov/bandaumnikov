@@ -5,13 +5,13 @@
     <div v-else class="profile__container">
       <img class="profile__photo" :src="user?.avatar" alt="User Avatar" />
       <h2 class="profile__name">
-        {{ `${user?.first_name} ${user?.last_name}` }}
+        {{ `${user.first_name} ${user.last_name}` }}
       </h2>
       <p class="profile__text age">
         <strong>Age:</strong> {{ birthDateToAge() }}
       </p>
       <p class="profile__text job">
-        <strong>Job:</strong> {{ user?.employment?.title }}
+        <strong>Job:</strong> {{ user.employment?.title }}
       </p>
     </div>
   </section>
